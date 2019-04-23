@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Forgot"
+    android:background="@drawable/train"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="81dp">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        app:cardUseCompatPadding="true"
+        android:layout_marginTop="10dp"
+        android:background="#fd0303"
+        app:cardCornerRadius="12dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Forgot Password"
+            android:background="#fd0303"
+            android:shadowRadius="@integer/google_play_services_version"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+    </android.support.v7.widget.CardView>
+
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="#ffff"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <Button
+        android:id="@+id/btn_verify_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:background="#ffff"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+</LinearLayout>

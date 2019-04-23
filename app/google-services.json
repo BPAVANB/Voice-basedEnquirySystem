@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1072563678987",
+    "firebase_url": "https://aadhar-221ad.firebaseio.com",
+    "project_id": "aadhar-221ad",
+    "storage_bucket": "aadhar-221ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072563678987:android:67cdb675aa0abd31",
+        "android_client_info": {
+          "package_name": "com.rccreation.ravindra.sairamproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072563678987-i85gaj4ivrn98kp867msq0dp4enmutl6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rccreation.ravindra.sairamproject",
+            "certificate_hash": "01241c850b58d665d416794131a128a648054817"
+          }
+        },
+        {
+          "client_id": "1072563678987-i83vs0da3eufbtmp8gei8k8prppbg61s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtpCvNuyrVeCHtrHdTVkh5uXlGN6RYmek"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072563678987-i83vs0da3eufbtmp8gei8k8prppbg61s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

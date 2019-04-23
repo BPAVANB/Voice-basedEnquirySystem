@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rccreation.ravindra.sairamproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Train Assistance"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".rcregister"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity android:name=".FirstActivity" />
+        <activity
+            android:name=".ScanActivity"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity android:name=".Qrcoderesult" />
+        <activity android:name=".dataaadhra" />
+        <activity android:name=".Priority" />
+        <activity android:name=".HomePage" />
+        <activity android:name=".Display" />
+        <activity android:name=".Pnr" />
+        <activity android:name=".Routes" />
+        <activity android:name=".Live" />
+        <activity android:name=".Code" />
+        <activity android:name=".BetStation" />
+        <activity android:name=".Pnr_check" />
+        <activity android:name=".book" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Booking" />
+        <activity android:name=".Betst" />
+        <activity android:name=".Pnrweb" />
+        <activity android:name=".Liveweb" />
+        <activity android:name=".Fare" />
+    </application>
+
+</manifest>

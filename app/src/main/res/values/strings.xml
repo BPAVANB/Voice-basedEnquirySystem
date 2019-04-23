@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">College Attendance </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_homepage1">Homepage1</string>
+    <string name="title_home">Home</string>
+    <string name="title_recent">Recents</string>
+    <string name="title_account">Account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

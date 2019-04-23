@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    android:background="@drawable/train"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/previous"
+            android:layout_width="71dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            app:srcCompat="@drawable/back" />
+        <!--<ImageView-->
+            <!--android:id="@+id/recent"-->
+            <!--android:layout_width="71dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_marginLeft="60dp"-->
+            <!--app:srcCompat="@drawable/time" />-->
+
+            <ImageView
+                android:layout_width="49dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="190dp"
+                android:id="@+id/profile"
+                app:srcCompat="@drawable/student" />
+
+        </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="120dp"
+        android:hint="Search here"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        app:cardElevation="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        app:cardMaxElevation="10dp"
+        app:cardCornerRadius="@dimen/fab_margin"
+        android:outlineAmbientShadowColor="@color/design_default_color_primary"
+        app:cardBackgroundColor="#e10808"
+        android:layout_height="wrap_content">
+
+
+    <Button
+        android:id="@+id/assist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="speakButtonClicked"
+        android:text="voice assistance!"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#e10808"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffff"
+        android:background="#ffff"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search"
+        tools:ignore="MissingConstraints,OnClick" />
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
